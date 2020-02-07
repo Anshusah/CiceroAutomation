@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\DELL\AppData\Local\Temp\testng-eclipse-2046073886\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">29 methods, 1 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="FirstElementTest">FirstElementTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="CanClcikCreatebtn">CanClcikCreatebtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="CanClcikFormBBuilder">CanClcikFormBBuilder</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="CanClcikTooltab">CanClcikTooltab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="CanClcikentriesnumber">CanClcikentriesnumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="DraganddropcheckboxTest">DraganddropcheckboxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="DraganddropheadingTest">DraganddropheadingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="DraganddropnumberTest">DraganddropnumberTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="DraganddropparagraphTest">DraganddropparagraphTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="DraganddropparamediaTest">DraganddropparamediaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="DraganddropselectboxTest">DraganddropselectboxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="DraganddroptextareaTest">DraganddroptextareaTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="DraganddroptextboxTest">DraganddroptextboxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="GridVisibleTest">GridVisibleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="ToverifyColCreatedTest">ToverifyColCreatedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="ToverifyColNameTest">ToverifyColNameTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="ToverifyColStatusTest">ToverifyColStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="ToverifyColTenantTest">ToverifyColTenantTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="ToverifyColUpdatedTest">ToverifyColUpdatedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="ToverifyErrormsgTest">ToverifyErrormsgTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="ToverifyStatusTest">ToverifyStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="VerifyToverifyActiveStatus">VerifyToverifyActiveStatus</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="VerifyToverifyConTent">VerifyToverifyConTent</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="VerifyToverifyeditforms">VerifyToverifyeditforms</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="VerifyToverifyformbtn">VerifyToverifyformbtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="VerifyToverifyhomeBtn">VerifyToverifyhomeBtn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="VerifyToverifysearchtab">VerifyToverifysearchtab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="getLoginToApplication">getLoginToApplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="testPages.TestClaimFormBuilder" hash-for-method="submitButtonTest">submitButtonTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">testPages.TestClaimFormBuilder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="FirstElementTest">
+                  </a> <!-- FirstElementTest -->
+                  <span class="method-name">FirstElementTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class=&apos;fb-elements-container ui-sortable&apos;]/div[@data-element-id=00833163]/div/div/div//form/div/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;ANSHU&apos;, ip: &apos;192.168.0.115&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_202&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.ClaimFormBuilder.FirstElement(ClaimFormBuilder.java:473)
+	at testPages.TestClaimFormBuilder.FirstElementTest(TestClaimFormBuilder.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPages.TestClaimFormBuilder</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="CanClcikCreatebtn">
+                  </a> <!-- CanClcikCreatebtn -->
+                  <span class="method-name">CanClcikCreatebtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CanClcikFormBBuilder">
+                  </a> <!-- CanClcikFormBBuilder -->
+                  <span class="method-name">CanClcikFormBBuilder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CanClcikTooltab">
+                  </a> <!-- CanClcikTooltab -->
+                  <span class="method-name">CanClcikTooltab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="CanClcikentriesnumber">
+                  </a> <!-- CanClcikentriesnumber -->
+                  <span class="method-name">CanClcikentriesnumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraganddropcheckboxTest">
+                  </a> <!-- DraganddropcheckboxTest -->
+                  <span class="method-name">DraganddropcheckboxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraganddropheadingTest">
+                  </a> <!-- DraganddropheadingTest -->
+                  <span class="method-name">DraganddropheadingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraganddropnumberTest">
+                  </a> <!-- DraganddropnumberTest -->
+                  <span class="method-name">DraganddropnumberTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraganddropparagraphTest">
+                  </a> <!-- DraganddropparagraphTest -->
+                  <span class="method-name">DraganddropparagraphTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraganddropparamediaTest">
+                  </a> <!-- DraganddropparamediaTest -->
+                  <span class="method-name">DraganddropparamediaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraganddropselectboxTest">
+                  </a> <!-- DraganddropselectboxTest -->
+                  <span class="method-name">DraganddropselectboxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraganddroptextareaTest">
+                  </a> <!-- DraganddroptextareaTest -->
+                  <span class="method-name">DraganddroptextareaTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DraganddroptextboxTest">
+                  </a> <!-- DraganddroptextboxTest -->
+                  <span class="method-name">DraganddroptextboxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GridVisibleTest">
+                  </a> <!-- GridVisibleTest -->
+                  <span class="method-name">GridVisibleTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyColCreatedTest">
+                  </a> <!-- ToverifyColCreatedTest -->
+                  <span class="method-name">ToverifyColCreatedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyColNameTest">
+                  </a> <!-- ToverifyColNameTest -->
+                  <span class="method-name">ToverifyColNameTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyColStatusTest">
+                  </a> <!-- ToverifyColStatusTest -->
+                  <span class="method-name">ToverifyColStatusTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyColTenantTest">
+                  </a> <!-- ToverifyColTenantTest -->
+                  <span class="method-name">ToverifyColTenantTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyColUpdatedTest">
+                  </a> <!-- ToverifyColUpdatedTest -->
+                  <span class="method-name">ToverifyColUpdatedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyErrormsgTest">
+                  </a> <!-- ToverifyErrormsgTest -->
+                  <span class="method-name">ToverifyErrormsgTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="ToverifyStatusTest">
+                  </a> <!-- ToverifyStatusTest -->
+                  <span class="method-name">ToverifyStatusTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyToverifyActiveStatus">
+                  </a> <!-- VerifyToverifyActiveStatus -->
+                  <span class="method-name">VerifyToverifyActiveStatus</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyToverifyConTent">
+                  </a> <!-- VerifyToverifyConTent -->
+                  <span class="method-name">VerifyToverifyConTent</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyToverifyeditforms">
+                  </a> <!-- VerifyToverifyeditforms -->
+                  <span class="method-name">VerifyToverifyeditforms</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyToverifyformbtn">
+                  </a> <!-- VerifyToverifyformbtn -->
+                  <span class="method-name">VerifyToverifyformbtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyToverifyhomeBtn">
+                  </a> <!-- VerifyToverifyhomeBtn -->
+                  <span class="method-name">VerifyToverifyhomeBtn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="VerifyToverifysearchtab">
+                  </a> <!-- VerifyToverifysearchtab -->
+                  <span class="method-name">VerifyToverifysearchtab</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLoginToApplication">
+                  </a> <!-- getLoginToApplication -->
+                  <span class="method-name">getLoginToApplication</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="submitButtonTest">
+                  </a> <!-- submitButtonTest -->
+                  <span class="method-name">submitButtonTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\AppData\Local\Temp\testng-eclipse-2046073886\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testPages.TestClaimFormBuilder&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+  &lt;test name=&quot;Default test(failed)&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testPages.TestClaimFormBuilder&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;beforeMethod&quot;/&gt;
+          &lt;include name=&quot;SetUp&quot;/&gt;
+          &lt;include name=&quot;afterMethod&quot;/&gt;
+          &lt;include name=&quot;FirstElementTest&quot;/&gt;
+          &lt;include name=&quot;endTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPages.TestClaimFormBuilder --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test(failed) --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Default test(failed) (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(29);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'FirstElementTest')
+data.setCell(0, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(0, 3, 31375);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'CanClcikentriesnumber')
+data.setCell(1, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(1, 3, 13091);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'submitButtonTest')
+data.setCell(2, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(2, 3, 6445);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'DraganddropnumberTest')
+data.setCell(3, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(3, 3, 4405);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'DraganddropselectboxTest')
+data.setCell(4, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(4, 3, 4379);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'DraganddropcheckboxTest')
+data.setCell(5, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(5, 3, 4379);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'DraganddropheadingTest')
+data.setCell(6, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(6, 3, 4377);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'DraganddropparamediaTest')
+data.setCell(7, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(7, 3, 4376);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'DraganddroptextareaTest')
+data.setCell(8, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(8, 3, 4372);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DraganddroptextboxTest')
+data.setCell(9, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(9, 3, 4351);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'DraganddropparagraphTest')
+data.setCell(10, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(10, 3, 4335);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'getLoginToApplication')
+data.setCell(11, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(11, 3, 3982);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'CanClcikCreatebtn')
+data.setCell(12, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(12, 3, 3566);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'CanClcikFormBBuilder')
+data.setCell(13, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(13, 3, 3123);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'CanClcikTooltab')
+data.setCell(14, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(14, 3, 2353);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'GridVisibleTest')
+data.setCell(15, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(15, 3, 2318);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'VerifyToverifyhomeBtn')
+data.setCell(16, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(16, 3, 2082);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'ToverifyErrormsgTest')
+data.setCell(17, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(17, 3, 2078);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'VerifyToverifyConTent')
+data.setCell(18, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(18, 3, 2072);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'ToverifyColTenantTest')
+data.setCell(19, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(19, 3, 2068);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'ToverifyColUpdatedTest')
+data.setCell(20, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(20, 3, 2067);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'ToverifyColStatusTest')
+data.setCell(21, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(21, 3, 2065);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'VerifyToverifyActiveStatus')
+data.setCell(22, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(22, 3, 2062);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'ToverifyColCreatedTest')
+data.setCell(23, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(23, 3, 2061);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'VerifyToverifyformbtn')
+data.setCell(24, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(24, 3, 2061);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'ToverifyColNameTest')
+data.setCell(25, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(25, 3, 2058);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'VerifyToverifysearchtab')
+data.setCell(26, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(26, 3, 2056);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'ToverifyStatusTest')
+data.setCell(27, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(27, 3, 2055);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'VerifyToverifyeditforms')
+data.setCell(28, 2, 'testPages.TestClaimFormBuilder')
+data.setCell(28, 3, 2052);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPages.TestClaimFormBuilder</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.getLoginToApplication())</span>
+                <span class="method-start">13150 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getLoginToApplication</span>
+                <span class="method-start">13155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=getLoginToApplication status=SUCCESS method=TestClaimFormBuilder.getLoginToApplicat...)</span>
+                <span class="method-start">17138 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.CanClcikTooltab() throws java.lang.InterruptedException,j...)</span>
+                <span class="method-start">17140 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CanClcikTooltab</span>
+                <span class="method-start">17140 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CanClcikTooltab status=SUCCESS method=TestClaimFormBuilder.CanClcikTooltab()[pri:2,...)</span>
+                <span class="method-start">19495 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.CanClcikFormBBuilder() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">19496 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CanClcikFormBBuilder</span>
+                <span class="method-start">19497 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CanClcikFormBBuilder status=SUCCESS method=TestClaimFormBuilder.CanClcikFormBBuilde...)</span>
+                <span class="method-start">22621 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.VerifyToverifyhomeBtn() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">22627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyToverifyhomeBtn</span>
+                <span class="method-start">22628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=VerifyToverifyhomeBtn status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyhome...)</span>
+                <span class="method-start">24711 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.VerifyToverifyConTent() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">24714 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyToverifyConTent</span>
+                <span class="method-start">24715 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=VerifyToverifyConTent status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyConT...)</span>
+                <span class="method-start">26788 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.VerifyToverifysearchtab() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">26790 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyToverifysearchtab</span>
+                <span class="method-start">26791 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=VerifyToverifysearchtab status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyse...)</span>
+                <span class="method-start">28848 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.CanClcikentriesnumber() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">28850 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CanClcikentriesnumber</span>
+                <span class="method-start">28851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CanClcikentriesnumber status=SUCCESS method=TestClaimFormBuilder.CanClcikentriesnum...)</span>
+                <span class="method-start">41943 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.ToverifyColNameTest() throws java.lang.InterruptedExcepti...)</span>
+                <span class="method-start">41945 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyColNameTest</span>
+                <span class="method-start">41946 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyColNameTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColNameTest(...)</span>
+                <span class="method-start">44006 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.ToverifyColTenantTest() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">44008 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyColTenantTest</span>
+                <span class="method-start">44009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyColTenantTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColTenantT...)</span>
+                <span class="method-start">46078 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.ToverifyColCreatedTest() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">46079 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyColCreatedTest</span>
+                <span class="method-start">46080 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyColCreatedTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColCreate...)</span>
+                <span class="method-start">48142 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.ToverifyColUpdatedTest() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">48144 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyColUpdatedTest</span>
+                <span class="method-start">48145 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyColUpdatedTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColUpdate...)</span>
+                <span class="method-start">50215 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.ToverifyColStatusTest() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">50218 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyColStatusTest</span>
+                <span class="method-start">50219 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyColStatusTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColStatusT...)</span>
+                <span class="method-start">52284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.VerifyToverifyeditforms() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">52285 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyToverifyeditforms</span>
+                <span class="method-start">52285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=VerifyToverifyeditforms status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyed...)</span>
+                <span class="method-start">54339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.CanClcikCreatebtn() throws java.lang.InterruptedException)</span>
+                <span class="method-start">54341 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">CanClcikCreatebtn</span>
+                <span class="method-start">54341 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=CanClcikCreatebtn status=SUCCESS method=TestClaimFormBuilder.CanClcikCreatebtn()[pr...)</span>
+                <span class="method-start">57908 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.VerifyToverifyformbtn() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">57909 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyToverifyformbtn</span>
+                <span class="method-start">57910 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=VerifyToverifyformbtn status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyform...)</span>
+                <span class="method-start">59972 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.ToverifyErrormsgTest() throws java.lang.InterruptedExcept...)</span>
+                <span class="method-start">59974 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyErrormsgTest</span>
+                <span class="method-start">59976 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyErrormsgTest status=SUCCESS method=TestClaimFormBuilder.ToverifyErrormsgTes...)</span>
+                <span class="method-start">62054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.ToverifyStatusTest() throws java.lang.InterruptedExceptio...)</span>
+                <span class="method-start">62056 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">ToverifyStatusTest</span>
+                <span class="method-start">62056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=ToverifyStatusTest status=SUCCESS method=TestClaimFormBuilder.ToverifyStatusTest()[...)</span>
+                <span class="method-start">64112 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.VerifyToverifyActiveStatus() throws java.lang.Interrupted...)</span>
+                <span class="method-start">64114 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">VerifyToverifyActiveStatus</span>
+                <span class="method-start">64114 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=VerifyToverifyActiveStatus status=SUCCESS method=TestClaimFormBuilder.VerifyToverif...)</span>
+                <span class="method-start">66177 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.submitButtonTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">66178 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">submitButtonTest</span>
+                <span class="method-start">66179 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=submitButtonTest status=SUCCESS method=TestClaimFormBuilder.submitButtonTest()[pri:...)</span>
+                <span class="method-start">72625 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.DraganddropparagraphTest() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">72625 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DraganddropparagraphTest</span>
+                <span class="method-start">72626 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DraganddropparagraphTest status=SUCCESS method=TestClaimFormBuilder.Draganddroppara...)</span>
+                <span class="method-start">76962 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.DraganddropparamediaTest() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">76963 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DraganddropparamediaTest</span>
+                <span class="method-start">76964 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DraganddropparamediaTest status=SUCCESS method=TestClaimFormBuilder.Draganddroppara...)</span>
+                <span class="method-start">81341 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.DraganddroptextareaTest() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">81342 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DraganddroptextareaTest</span>
+                <span class="method-start">81343 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DraganddroptextareaTest status=SUCCESS method=TestClaimFormBuilder.Draganddroptexta...)</span>
+                <span class="method-start">85716 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.DraganddropnumberTest() throws java.lang.InterruptedExcep...)</span>
+                <span class="method-start">85717 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DraganddropnumberTest</span>
+                <span class="method-start">85718 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DraganddropnumberTest status=SUCCESS method=TestClaimFormBuilder.DraganddropnumberT...)</span>
+                <span class="method-start">90124 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.DraganddropcheckboxTest() throws java.lang.InterruptedExc...)</span>
+                <span class="method-start">90126 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DraganddropcheckboxTest</span>
+                <span class="method-start">90129 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DraganddropcheckboxTest status=SUCCESS method=TestClaimFormBuilder.Draganddropcheck...)</span>
+                <span class="method-start">94509 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.DraganddroptextboxTest() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">94511 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DraganddroptextboxTest</span>
+                <span class="method-start">94512 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DraganddroptextboxTest status=SUCCESS method=TestClaimFormBuilder.Draganddroptextbo...)</span>
+                <span class="method-start">98864 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.DraganddropselectboxTest() throws java.lang.InterruptedEx...)</span>
+                <span class="method-start">98866 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DraganddropselectboxTest</span>
+                <span class="method-start">98866 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DraganddropselectboxTest status=SUCCESS method=TestClaimFormBuilder.Draganddropsele...)</span>
+                <span class="method-start">103246 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.DraganddropheadingTest() throws java.lang.InterruptedExce...)</span>
+                <span class="method-start">103247 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DraganddropheadingTest</span>
+                <span class="method-start">103248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=DraganddropheadingTest status=SUCCESS method=TestClaimFormBuilder.Draganddropheadin...)</span>
+                <span class="method-start">107626 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.GridVisibleTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">107627 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GridVisibleTest</span>
+                <span class="method-start">107628 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">afterMethod([TestResult name=GridVisibleTest status=SUCCESS method=TestClaimFormBuilder.GridVisibleTest()[pri:36...)</span>
+                <span class="method-start">109946 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforeMethod(public void testPages.TestClaimFormBuilder.FirstElementTest() throws java.lang.InterruptedException)</span>
+                <span class="method-start">109947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">FirstElementTest</span>
+                <span class="method-start">109947 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">afterMethod([TestResult name=FirstElementTest status=FAILURE method=TestClaimFormBuilder.FirstElementTest()[pri:...)</span>
+                <span class="method-start">141324 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">endTest</span>
+                <span class="method-start">141340 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

@@ -1,0 +1,885 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="29" passed="28">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="141745" started-at="2020-02-06T10:51:18Z" finished-at="2020-02-06T10:53:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="141745" started-at="2020-02-06T10:51:18Z" finished-at="2020-02-06T10:53:40Z">
+      <class name="testPages.TestClaimFormBuilder">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="SetUp" is-config="true" duration-ms="13146" started-at="2020-02-06T16:36:18Z" finished-at="2020-02-06T16:36:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="5" started-at="2020-02-06T16:36:31Z" finished-at="2020-02-06T16:36:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.getLoginToApplication()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getLoginToApplication()[pri:1, instance:testPages.TestClaimFormBuilder@6e06451e]" name="getLoginToApplication" duration-ms="3982" started-at="2020-02-06T16:36:31Z" finished-at="2020-02-06T16:36:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLoginToApplication -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:36:35Z" finished-at="2020-02-06T16:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getLoginToApplication status=SUCCESS method=TestClaimFormBuilder.getLoginToApplication()[pri:1, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="CanClcikTooltab()[pri:2, instance:testPages.TestClaimFormBuilder@6e06451e]" name="CanClcikTooltab" duration-ms="2353" started-at="2020-02-06T16:36:35Z" finished-at="2020-02-06T16:36:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanClcikTooltab -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:36:35Z" finished-at="2020-02-06T16:36:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.CanClcikTooltab() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:36:38Z" finished-at="2020-02-06T16:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CanClcikTooltab status=SUCCESS method=TestClaimFormBuilder.CanClcikTooltab()[pri:2, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:36:38Z" finished-at="2020-02-06T16:36:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.CanClcikFormBBuilder() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CanClcikFormBBuilder()[pri:3, instance:testPages.TestClaimFormBuilder@6e06451e]" name="CanClcikFormBBuilder" duration-ms="3123" started-at="2020-02-06T16:36:38Z" finished-at="2020-02-06T16:36:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanClcikFormBBuilder -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:36:41Z" finished-at="2020-02-06T16:36:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CanClcikFormBBuilder status=SUCCESS method=TestClaimFormBuilder.CanClcikFormBBuilder()[pri:3, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:36:41Z" finished-at="2020-02-06T16:36:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.VerifyToverifyhomeBtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyToverifyhomeBtn()[pri:4, instance:testPages.TestClaimFormBuilder@6e06451e]" name="VerifyToverifyhomeBtn" duration-ms="2082" started-at="2020-02-06T16:36:41Z" finished-at="2020-02-06T16:36:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToverifyhomeBtn -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:36:43Z" finished-at="2020-02-06T16:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyToverifyhomeBtn status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyhomeBtn()[pri:4, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:36:43Z" finished-at="2020-02-06T16:36:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.VerifyToverifyConTent() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyToverifyConTent()[pri:5, instance:testPages.TestClaimFormBuilder@6e06451e]" name="VerifyToverifyConTent" duration-ms="2072" started-at="2020-02-06T16:36:43Z" finished-at="2020-02-06T16:36:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToverifyConTent -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:36:45Z" finished-at="2020-02-06T16:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyToverifyConTent status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyConTent()[pri:5, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:36:45Z" finished-at="2020-02-06T16:36:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.VerifyToverifysearchtab() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyToverifysearchtab()[pri:6, instance:testPages.TestClaimFormBuilder@6e06451e]" name="VerifyToverifysearchtab" duration-ms="2056" started-at="2020-02-06T16:36:45Z" finished-at="2020-02-06T16:36:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToverifysearchtab -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:36:47Z" finished-at="2020-02-06T16:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyToverifysearchtab status=SUCCESS method=TestClaimFormBuilder.VerifyToverifysearchtab()[pri:6, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:36:47Z" finished-at="2020-02-06T16:36:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.CanClcikentriesnumber() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CanClcikentriesnumber()[pri:7, instance:testPages.TestClaimFormBuilder@6e06451e]" name="CanClcikentriesnumber" duration-ms="13091" started-at="2020-02-06T16:36:47Z" finished-at="2020-02-06T16:37:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanClcikentriesnumber -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:00Z" finished-at="2020-02-06T16:37:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CanClcikentriesnumber status=SUCCESS method=TestClaimFormBuilder.CanClcikentriesnumber()[pri:7, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:00Z" finished-at="2020-02-06T16:37:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.ToverifyColNameTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyColNameTest()[pri:8, instance:testPages.TestClaimFormBuilder@6e06451e]" name="ToverifyColNameTest" duration-ms="2058" started-at="2020-02-06T16:37:00Z" finished-at="2020-02-06T16:37:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyColNameTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:02Z" finished-at="2020-02-06T16:37:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyColNameTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColNameTest()[pri:8, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:02Z" finished-at="2020-02-06T16:37:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.ToverifyColTenantTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyColTenantTest()[pri:9, instance:testPages.TestClaimFormBuilder@6e06451e]" name="ToverifyColTenantTest" duration-ms="2068" started-at="2020-02-06T16:37:02Z" finished-at="2020-02-06T16:37:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyColTenantTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:04Z" finished-at="2020-02-06T16:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyColTenantTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColTenantTest()[pri:9, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:04Z" finished-at="2020-02-06T16:37:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.ToverifyColCreatedTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyColCreatedTest()[pri:10, instance:testPages.TestClaimFormBuilder@6e06451e]" name="ToverifyColCreatedTest" duration-ms="2061" started-at="2020-02-06T16:37:04Z" finished-at="2020-02-06T16:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyColCreatedTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:06Z" finished-at="2020-02-06T16:37:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyColCreatedTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColCreatedTest()[pri:10, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:06Z" finished-at="2020-02-06T16:37:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.ToverifyColUpdatedTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyColUpdatedTest()[pri:11, instance:testPages.TestClaimFormBuilder@6e06451e]" name="ToverifyColUpdatedTest" duration-ms="2067" started-at="2020-02-06T16:37:06Z" finished-at="2020-02-06T16:37:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyColUpdatedTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:08Z" finished-at="2020-02-06T16:37:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyColUpdatedTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColUpdatedTest()[pri:11, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:08Z" finished-at="2020-02-06T16:37:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.ToverifyColStatusTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyColStatusTest()[pri:12, instance:testPages.TestClaimFormBuilder@6e06451e]" name="ToverifyColStatusTest" duration-ms="2065" started-at="2020-02-06T16:37:08Z" finished-at="2020-02-06T16:37:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyColStatusTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:10Z" finished-at="2020-02-06T16:37:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyColStatusTest status=SUCCESS method=TestClaimFormBuilder.ToverifyColStatusTest()[pri:12, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="VerifyToverifyeditforms()[pri:13, instance:testPages.TestClaimFormBuilder@6e06451e]" name="VerifyToverifyeditforms" duration-ms="2052" started-at="2020-02-06T16:37:10Z" finished-at="2020-02-06T16:37:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToverifyeditforms -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:10Z" finished-at="2020-02-06T16:37:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.VerifyToverifyeditforms() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:12Z" finished-at="2020-02-06T16:37:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyToverifyeditforms status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyeditforms()[pri:13, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:12Z" finished-at="2020-02-06T16:37:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.CanClcikCreatebtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CanClcikCreatebtn()[pri:14, instance:testPages.TestClaimFormBuilder@6e06451e]" name="CanClcikCreatebtn" duration-ms="3566" started-at="2020-02-06T16:37:12Z" finished-at="2020-02-06T16:37:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanClcikCreatebtn -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:16Z" finished-at="2020-02-06T16:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CanClcikCreatebtn status=SUCCESS method=TestClaimFormBuilder.CanClcikCreatebtn()[pri:14, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:16Z" finished-at="2020-02-06T16:37:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.VerifyToverifyformbtn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyToverifyformbtn()[pri:15, instance:testPages.TestClaimFormBuilder@6e06451e]" name="VerifyToverifyformbtn" duration-ms="2061" started-at="2020-02-06T16:37:16Z" finished-at="2020-02-06T16:37:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToverifyformbtn -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:18Z" finished-at="2020-02-06T16:37:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyToverifyformbtn status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyformbtn()[pri:15, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="2" started-at="2020-02-06T16:37:18Z" finished-at="2020-02-06T16:37:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.ToverifyErrormsgTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyErrormsgTest()[pri:16, instance:testPages.TestClaimFormBuilder@6e06451e]" name="ToverifyErrormsgTest" duration-ms="2078" started-at="2020-02-06T16:37:18Z" finished-at="2020-02-06T16:37:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyErrormsgTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:20Z" finished-at="2020-02-06T16:37:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyErrormsgTest status=SUCCESS method=TestClaimFormBuilder.ToverifyErrormsgTest()[pri:16, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:20Z" finished-at="2020-02-06T16:37:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.ToverifyStatusTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ToverifyStatusTest()[pri:17, instance:testPages.TestClaimFormBuilder@6e06451e]" name="ToverifyStatusTest" duration-ms="2055" started-at="2020-02-06T16:37:20Z" finished-at="2020-02-06T16:37:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToverifyStatusTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:22Z" finished-at="2020-02-06T16:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ToverifyStatusTest status=SUCCESS method=TestClaimFormBuilder.ToverifyStatusTest()[pri:17, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:22Z" finished-at="2020-02-06T16:37:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.VerifyToverifyActiveStatus() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="VerifyToverifyActiveStatus()[pri:18, instance:testPages.TestClaimFormBuilder@6e06451e]" name="VerifyToverifyActiveStatus" duration-ms="2062" started-at="2020-02-06T16:37:22Z" finished-at="2020-02-06T16:37:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyToverifyActiveStatus -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:24Z" finished-at="2020-02-06T16:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyToverifyActiveStatus status=SUCCESS method=TestClaimFormBuilder.VerifyToverifyActiveStatus()[pri:18, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:24Z" finished-at="2020-02-06T16:37:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.submitButtonTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="submitButtonTest()[pri:19, instance:testPages.TestClaimFormBuilder@6e06451e]" name="submitButtonTest" duration-ms="6445" started-at="2020-02-06T16:37:24Z" finished-at="2020-02-06T16:37:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitButtonTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:31Z" finished-at="2020-02-06T16:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.DraganddropparagraphTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:31Z" finished-at="2020-02-06T16:37:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=submitButtonTest status=SUCCESS method=TestClaimFormBuilder.submitButtonTest()[pri:19, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DraganddropparagraphTest()[pri:28, instance:testPages.TestClaimFormBuilder@6e06451e]" name="DraganddropparagraphTest" duration-ms="4335" started-at="2020-02-06T16:37:31Z" finished-at="2020-02-06T16:37:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraganddropparagraphTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:35Z" finished-at="2020-02-06T16:37:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DraganddropparagraphTest status=SUCCESS method=TestClaimFormBuilder.DraganddropparagraphTest()[pri:28, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:35Z" finished-at="2020-02-06T16:37:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.DraganddropparamediaTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DraganddropparamediaTest()[pri:29, instance:testPages.TestClaimFormBuilder@6e06451e]" name="DraganddropparamediaTest" duration-ms="4376" started-at="2020-02-06T16:37:35Z" finished-at="2020-02-06T16:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraganddropparamediaTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:39Z" finished-at="2020-02-06T16:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DraganddropparamediaTest status=SUCCESS method=TestClaimFormBuilder.DraganddropparamediaTest()[pri:29, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:39Z" finished-at="2020-02-06T16:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.DraganddroptextareaTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DraganddroptextareaTest()[pri:30, instance:testPages.TestClaimFormBuilder@6e06451e]" name="DraganddroptextareaTest" duration-ms="4372" started-at="2020-02-06T16:37:39Z" finished-at="2020-02-06T16:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraganddroptextareaTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:44Z" finished-at="2020-02-06T16:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DraganddroptextareaTest status=SUCCESS method=TestClaimFormBuilder.DraganddroptextareaTest()[pri:30, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:44Z" finished-at="2020-02-06T16:37:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.DraganddropnumberTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DraganddropnumberTest()[pri:31, instance:testPages.TestClaimFormBuilder@6e06451e]" name="DraganddropnumberTest" duration-ms="4405" started-at="2020-02-06T16:37:44Z" finished-at="2020-02-06T16:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraganddropnumberTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:48Z" finished-at="2020-02-06T16:37:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DraganddropnumberTest status=SUCCESS method=TestClaimFormBuilder.DraganddropnumberTest()[pri:31, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="3" started-at="2020-02-06T16:37:48Z" finished-at="2020-02-06T16:37:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.DraganddropcheckboxTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DraganddropcheckboxTest()[pri:32, instance:testPages.TestClaimFormBuilder@6e06451e]" name="DraganddropcheckboxTest" duration-ms="4379" started-at="2020-02-06T16:37:48Z" finished-at="2020-02-06T16:37:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraganddropcheckboxTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:53Z" finished-at="2020-02-06T16:37:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DraganddropcheckboxTest status=SUCCESS method=TestClaimFormBuilder.DraganddropcheckboxTest()[pri:32, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:53Z" finished-at="2020-02-06T16:37:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.DraganddroptextboxTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DraganddroptextboxTest()[pri:33, instance:testPages.TestClaimFormBuilder@6e06451e]" name="DraganddroptextboxTest" duration-ms="4351" started-at="2020-02-06T16:37:53Z" finished-at="2020-02-06T16:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraganddroptextboxTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:37:57Z" finished-at="2020-02-06T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DraganddroptextboxTest status=SUCCESS method=TestClaimFormBuilder.DraganddroptextboxTest()[pri:33, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="DraganddropselectboxTest()[pri:34, instance:testPages.TestClaimFormBuilder@6e06451e]" name="DraganddropselectboxTest" duration-ms="4379" started-at="2020-02-06T16:37:57Z" finished-at="2020-02-06T16:38:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraganddropselectboxTest -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:37:57Z" finished-at="2020-02-06T16:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.DraganddropselectboxTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:38:01Z" finished-at="2020-02-06T16:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DraganddropselectboxTest status=SUCCESS method=TestClaimFormBuilder.DraganddropselectboxTest()[pri:34, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:38:01Z" finished-at="2020-02-06T16:38:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.DraganddropheadingTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DraganddropheadingTest()[pri:35, instance:testPages.TestClaimFormBuilder@6e06451e]" name="DraganddropheadingTest" duration-ms="4377" started-at="2020-02-06T16:38:01Z" finished-at="2020-02-06T16:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DraganddropheadingTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:38:06Z" finished-at="2020-02-06T16:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DraganddropheadingTest status=SUCCESS method=TestClaimFormBuilder.DraganddropheadingTest()[pri:35, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2020-02-06T16:38:06Z" finished-at="2020-02-06T16:38:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.GridVisibleTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="GridVisibleTest()[pri:36, instance:testPages.TestClaimFormBuilder@6e06451e]" name="GridVisibleTest" duration-ms="2318" started-at="2020-02-06T16:38:06Z" finished-at="2020-02-06T16:38:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GridVisibleTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:38:08Z" finished-at="2020-02-06T16:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=GridVisibleTest status=SUCCESS method=TestClaimFormBuilder.GridVisibleTest()[pri:36, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:38:08Z" finished-at="2020-02-06T16:38:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testPages.TestClaimFormBuilder.FirstElementTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="FirstElementTest()[pri:37, instance:testPages.TestClaimFormBuilder@6e06451e]" name="FirstElementTest" duration-ms="31375" started-at="2020-02-06T16:38:08Z" finished-at="2020-02-06T16:38:39Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate an element using xpath=//div[@class='fb-elements-container ui-sortable']/div[@data-element-id=00833163]/div/div/div//form/div/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANSHU', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//div[@class='fb-elements-container ui-sortable']/div[@data-element-id=00833163]/div/div/div//form/div/div
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANSHU', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:327)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at pages.ClaimFormBuilder.FirstElement(ClaimFormBuilder.java:473)
+	at testPages.TestClaimFormBuilder.FirstElementTest(TestClaimFormBuilder.java:309)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstElementTest -->
+        <test-method status="FAIL" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2020-02-06T16:38:39Z" finished-at="2020-02-06T16:38:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FirstElementTest status=FAILURE method=TestClaimFormBuilder.FirstElementTest()[pri:37, instance:testPages.TestClaimFormBuilder@6e06451e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchWindowException">
+            <message>
+              <![CDATA[no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANSHU', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dad0e25172e8e8b2c409ace0902714f3]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.130)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'ANSHU', ip: '192.168.0.115', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 79.0.3945.36 (3582db32b3389..., userDataDir: C:\Users\DELL\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:59816}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: dad0e25172e8e8b2c409ace0902714f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:295)
+	at Base.TestBase.getScreenshot(TestBase.java:99)
+	at Base.TestBase.getresult(TestBase.java:123)
+	at Base.TestBase.afterMethod(TestBase.java:133)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:514)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:215)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:709)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:113)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:206)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:177)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testPages.TestClaimFormBuilder@6e06451e]" name="endTest" is-config="true" duration-ms="399" started-at="2020-02-06T16:38:39Z" finished-at="2020-02-06T16:38:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTest -->
+      </class> <!-- testPages.TestClaimFormBuilder -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
